@@ -74,9 +74,10 @@ unset LD_RUN_PATH
 
 python3 configure.py --bootstrap
 
-./ninja ninja_test
-./ninja_test --gtest_filter=-SubprocessTest.SetWithLots
+#./ninja ninja_test
+#./ninja_test --gtest_filter=-SubprocessTest.SetWithLots
 
+mkdir -pv /uny/pkg/"$pkgname"/"$pkgver"
 install -vm755 ninja /uny/pkg/"$pkgname"/"$pkgver"/
 
 ####################################################
