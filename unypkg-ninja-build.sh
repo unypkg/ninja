@@ -61,7 +61,7 @@ archiving_source
 unyc <<"UNYEOF"
 set -vx
 source /uny/build/functions
-pkgname="libwebp"
+pkgname="ninja"
 
 version_verbose_log_clean_unpack_cd
 get_env_var_values
